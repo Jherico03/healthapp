@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Patients | HealthApp</title>
+  <link rel="stylesheet" href="d.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="MEDICAL CROSS.png" type="image/x-icon">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar"><img src="user.png" alt="Profile Picture"></div>
+        <h3>Doctor</h3>
+        <p class="email">paraiso@healthapp.com</p>
+        <button class="logout-btn">Log out</button>
+      </div>
+      <nav class="menu">
+        <a href="d.html"><i class="fas fa-home"></i> Home</a>
+        <a href="#" class="active"><i class="fas fa-user-md"></i> My Patients</a>
+        <a href="scheduledsession.html"><i class="fas fa-calendar-check"></i> Scheduled Sessions</a>
+        <a href="myappointmentd.html"><i class="fas fa-bookmark"></i> My Appointments</a>
+        <a href="#"><i class="fas fa-cogs"></i> Settings</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <span>Today's Date</span>
+        <strong>2025-10-07</strong>
+      </header>
+
+      <section class="patients">
+        <h2>My Patients </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Patient ID</th>
+              <th>Name</th>
+              <th>Next Appointment</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>James</td>
+              <td>2025-10-10 10:00 AM</td>
+              <td>
+                <a href="#" class="view-btn">
+                  <i class="fas fa-eye"></i>
+                </a>
+              </td>
+              
+
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>anthony</td>
+              <td>2025-10-11 2:00 PM</td>
+              <<td>
+                <a href="#" class="view-btn">
+                  <i class="fas fa-eye"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>003</td>
+              <td>jerick</td>
+              <td>2025-10-12 11:00 AM</td>
+              <td>
+                <a href="#" class="view-btn">
+                  <i class="fas fa-eye"></i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

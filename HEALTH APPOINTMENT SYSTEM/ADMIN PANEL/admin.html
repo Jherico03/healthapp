@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | HealthApp</title>
+  <link rel="stylesheet" href="admin.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="MEDICAL CROSS.png" type="image/x-icon">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">
+          <img src="user.png" alt="Profile Picture" />
+        </div>
+        <h3>Administrator</h3>
+        <p class="email">administrator@gmail.com</p>
+        <button class="logout-btn">Log out</button>
+      </div>
+      <nav class="menu">
+        <a href="#" class="active"><i class="fas fa-home"></i><span>Dashboard</span></a>
+        <a href="managedoctors.html"><i class="fas fa-user-md"></i><span> Manage Doctors</span></a>
+        <a href="managepatients.html"><i class="fas fa-users"></i><span> Manage Patients</span></a>
+        <a href="adminappointments.html"><i class="fas fa-bookmark"></i><span> Appointments</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span> Settings</span></a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="header">
+        <h1>Welcome, Admin</h1>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Total Doctors</h3>
+          <p>42</p>
+        </div>
+        <div class="card">
+          <h3>Total Patients</h3>
+          <p>150</p>
+        </div>
+        <div class="card">
+          <h3>Appointments Today</h3>
+          <p>18</p>
+        </div>
+      </div>
+
+      <div class="table">
+        <h3>Recent Appointments</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Patient Name</th>
+              <th>Doctor</th>
+              <th>Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>James</td>
+              <td>Dr. Paraiso</td>
+              <td>April 20, 2025</td>
+              <td>Confirmed</td>
+            </tr>
+            <tr>
+              <td>Anthony</td>
+              <td>Dr. Trinidad</td>
+              <td>April 20, 2025</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <td>Jerick</td>
+              <td>Dr. Pareja</td>
+              <td>April 20, 2025</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>Jerick</td>
+              <td>Dr. Pepano</td>
+              <td>April 20, 2025</td>
+              <td>Completed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

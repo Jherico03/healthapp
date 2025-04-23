@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Home | HealthApp</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="MEDICAL CROSS.png" type="image/x-icon">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+        <div class="profile">
+            <div class="avatar"><img src="user.png" alt="Profile Picture"></div>
+            <h3>Patient</h3>
+            <p class="email">franklourdpareja@patients.com</p>
+            <button class="logout-btn">Log out</button>
+          </div>
+      <nav class="menu">
+        <!-- Home link with icon -->
+        <a href="index1.html" class="active"><i class="fas fa-home"></i>  Home</a>
+        <a href="alldoctors.html"><i class="fas fa-user-md"></i> All Doctors</a>
+        <a href="appointment.html"><i class="fas fa-calendar-check"></i> Scheduled Sessions</a>
+        <a href="My Booking.html"><i class="fas fa-bookmark"></i> My Bookings</a>
+        <a href="#"><i class="fas fa-cogs"></i> Settings</a>
+      </nav>
+    </aside>
+    <main class="content">
+      <header class="topbar">
+        <span>Today's Date</span>
+        <strong>2025-10-07</strong>
+      </header>
+      <section class="welcome">
+        <h2>Welcome! <strong>Patient.</strong></h2>
+        <p>Haven't any idea about doctors? 
+        <strong>"All Doctors"</strong> section or <strong>"Sessions"</strong>.</p>
+        <input type="text" placeholder="Search Doctor and We will Find The Session Available" />
+        <button>Search</button>
+      </section>
+      <section class="status-section">
+        <div class="status-card"> 
+          <i class="fas fa-user-md"></i>
+          <p>4</p>
+          <span>All Doctors</span>
+        </div>
+        <div class="status-card">
+          <i class="fas fa-user"></i>
+          <p>1</p>
+          <span>All Patients</span>
+        </div>
+        <div class="status-card">
+          <i class="fas fa-bookmark"></i>
+          <p>1</p>
+          <span>Booking</span>
+        </div>
+        <div class="status-card">
+          <i class="fas fa-calendar-day"></i>
+          <p>0</p>
+          <span>Today Sessions</span>
+        </div>
+      </section>
+      
+      <section class="booking">
+        <h3>Your Upcoming Booking</h3>
+        <table>
+          <tr>
+            <th>Appoint. Number</th>
+            <th>Test Session Title</th>
+            <th>Doctor</th>
+            <th>Scheduled Date & Time</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Session</td>
+            <td>Doctor</td>
+            <td>2025-10-07 13:00</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

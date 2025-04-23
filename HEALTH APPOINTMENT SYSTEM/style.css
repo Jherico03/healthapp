@@ -1,0 +1,146 @@
+/* Navigation Bar */
+.topnav {
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.topnav a {
+  color: #f3e8e8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+/* HealthApp on the left */
+.topnav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  float: left;
+  padding: 14px 20px;
+}
+
+.topnav .logo:hover {
+  background-color: transparent;
+}
+
+/* Navbar links on the right side */
+.topnav .right-links {
+  float: right;
+}
+
+.topnav .right-links a {
+  margin-left: 20px;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #6e4c4c;
+  color: white;
+}
+
+.active {
+  color: #f3e8e8;
+}
+
+/* Home Section */
+.home h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 150px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.home p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  
+}
+
+.home p:last-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3a66d4;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #295f96;
+}
+
+/* Background */
+body {
+  background-image: url('doctora.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.modal-dialog {
+  width: 90%;
+  max-width: 500px;
+  margin: 30px auto;
+}
+.modal-header, .modal-body, .modal-footer {
+  padding: 20px;
+}
+.modal-body form .form-group {
+  margin-bottom: 15px;
+}
+.modal-footer {
+  text-align: center;
+}
+.btn-block {
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 150px;
+}
+
+
+.contact-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers vertically */
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+

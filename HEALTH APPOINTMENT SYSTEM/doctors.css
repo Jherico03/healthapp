@@ -1,0 +1,79 @@
+body {
+    background: url(doctora.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.topnav a {
+  color: #f3e8e8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+/* HealthApp on the left */
+.topnav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  float: left;
+  padding: 14px 20px;
+}
+
+.topnav .logo:hover {
+  background-color: transparent;
+}
+
+/* Navbar links on the right side */
+.topnav .right-links {
+  float: right;
+}
+
+.topnav .right-links a {
+  margin-left: 20px;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #6e4c4c;
+  color: white;
+}
+
+
+h2.text-center {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.doctor-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.doctor-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.panel-heading {
+    font-weight: bold;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.panel-body {
+    font-size: 15px;
+}

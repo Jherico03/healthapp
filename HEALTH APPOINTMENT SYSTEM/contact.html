@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | HealthApp</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="MEDICAL CROSS.png" type="image/png">
+
+    <!-- Bootstrap & FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Custom Contact Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="logo">HealthApp</a>
+        <div class="right-links">
+            <a href="index.html">Home</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="index.html">Register</a>
+        </div>
+    </div>
+</header>
+
+<section class="contact-container">
+    <h2 class="text-center">Contact Us</h2>
+    <p class="text-center">Have questions, concerns, or need assistance? We’re here to help.</p>
+
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="contactName"><span class="glyphicon glyphicon-user"></span> Name</label>
+            <input type="text" class="form-control" id="contactName" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+            <label for="contactEmail"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+            <label for="contactRole"><span class="glyphicon glyphicon-briefcase"></span> I am a...</label>
+            <select class="form-control" id="contactRole" required>
+                <option value="" disabled selected>Select</option>
+                <option value="patient">Patient</option>
+                <option value="doctor">Doctor</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="contactMessage"><span class="glyphicon glyphicon-pencil"></span> Message</label>
+            <textarea class="form-control" id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-block">
+            <span class="glyphicon glyphicon-send"></span> Send Message
+        </button>
+    </form>
+</section>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

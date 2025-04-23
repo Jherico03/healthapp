@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f4f8;
+}
+  
+  .dashboard {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    object-fit: cover;
+}
+
+.profile h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+  .profile .avatar {
+    margin-bottom: 10px;
+  }
+  
+  .profile .info p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .profile .email {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .logout-btn {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+ 
+.menu a {
+  display: block;
+  padding: 12px;
+  margin: 8px 0;
+  text-decoration: none;
+  color: #333;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.menu a.active,
+.menu a:hover {
+  background-color: #1976d2;
+  color: white;
+} 
+
+.sidebar a i {
+ font-size: 20px;  
+ margin-right: 8px;  
+}
+
+h2.text-center {
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
+}
+
+.doctors-row {
+    display: flex;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.doctors-row .panel {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.doctors-row .panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.panel-heading {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.panel-body {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+.panel-body img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.panel-body p {
+    margin: 6px 0;
+    color: #333;
+}
+
+

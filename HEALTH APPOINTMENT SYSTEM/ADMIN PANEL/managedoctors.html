@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage Doctors | HealthApp</title>
+  <link rel="stylesheet" href="managedoctors.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="MEDICAL CROSS.png" type="image/x-icon">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">
+          <img src="user.png" alt="Profile Picture" />
+        </div>
+        <h3>Administrator</h3>
+        <p class="email">administrator@gmail.com</p>
+        <button class="logout-btn">Log out</button>
+      </div>
+      <nav class="menu">
+        <a href="admin.html"><i class="fas fa-home"></i><span>Dashboard</span></a>
+        <a href="managedoctors.html" class="active"><i class="fas fa-user-md"></i><span> Manage Doctors</span></a>
+        <a href="managepatients.html"><i class="fas fa-users"></i><span> Manage Patients</span></a>
+        <a href="adminappointments.html"><i class="fas fa-bookmark"></i><span> Appointments</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span> Settings</span></a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="header">
+        <h1>Manage Doctors</h1>
+        <button class="add-btn"><i class="fas fa-plus"></i> Add Doctor</button>
+      </div>
+
+      <div class="table">
+        <h3>Doctor List</h3>
+        <table>          
+          <thead>
+            <tr>
+              <th>Doctor Name</th>
+              <th>Specialization</th>
+              <th>Email</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dr. Paraiso</td>
+              <td>Cardiologist</td>
+              <td>paraiso@healthapp.com</td>
+              <td>
+                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>Dr. Trinidad</td>
+              <td>Dentist</td>
+              <td>trinidad@healthapp.com</td>
+              <td>
+                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
